@@ -2,28 +2,28 @@
 class Agent < Formula
   desc "Ellipsis agent CLI — drive the Ellipsis cloud from your terminal"
   homepage "https://ellipsis.dev"
-  version "1.11.0"
+  version "1.12.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ellipsis-dev/cli/releases/download/v1.11.0/agent-darwin-arm64.tar.gz"
-      sha256 "6154dcca78f9a0830bfb414f525308be4c0e393176744c9cb371ef1d339fc0bf"
+      url "https://github.com/ellipsis-dev/cli/releases/download/v1.12.0/agent-darwin-arm64.tar.gz"
+      sha256 "0f307504d23c94e223e926e444a70365691ec0c4f1425d4af3809b33a80c26c3"
     end
     on_intel do
-      url "https://github.com/ellipsis-dev/cli/releases/download/v1.11.0/agent-darwin-x64.tar.gz"
-      sha256 "19e82c0776cf88d565967679a7864a35a104775045d1b0900f1d781372bbf949"
+      url "https://github.com/ellipsis-dev/cli/releases/download/v1.12.0/agent-darwin-x64.tar.gz"
+      sha256 "fb44d999a9802bfa7da67c76dc90baf7c380a95ba93b7b274cc9663cedfce89d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ellipsis-dev/cli/releases/download/v1.11.0/agent-linux-arm64.tar.gz"
-      sha256 "b0da49517df34c6d1462396aee628cd0db6da645ee6a2be54be5c2bb45dbcc95"
+      url "https://github.com/ellipsis-dev/cli/releases/download/v1.12.0/agent-linux-arm64.tar.gz"
+      sha256 "c29f4fdc529bde43b4dc24fae6ff599d5cf69ec347fa26ccc44202525ad3218b"
     end
     on_intel do
-      url "https://github.com/ellipsis-dev/cli/releases/download/v1.11.0/agent-linux-x64.tar.gz"
-      sha256 "abdc150da3d1ffc24f9aae4aad629a5c9a3dcbdca3e7d3e150f19e455321382a"
+      url "https://github.com/ellipsis-dev/cli/releases/download/v1.12.0/agent-linux-x64.tar.gz"
+      sha256 "b74980c710b46bae1850866b23b4400f0732534585a3c09f41d79294000dec01"
     end
   end
 
