@@ -5,6 +5,11 @@ class Agent < Formula
   version "2.30.0"
   license "MIT"
 
+  # The CLI is now `ellipsis`, installed and updated by install.sh. This
+  # formula is frozen at 2.30.0 and will not be bumped again.
+  disable! date: "2026-09-26",
+           because: "the CLI was renamed to ellipsis; install it with: curl -fsSL https://raw.githubusercontent.com/ellipsis-dev/cli/main/install.sh | sh"
+
   on_macos do
     on_arm do
       url "https://github.com/ellipsis-dev/cli/releases/download/v2.30.0/agent-darwin-arm64.tar.gz"
